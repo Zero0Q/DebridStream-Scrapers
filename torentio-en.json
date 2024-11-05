@@ -1,6 +1,6 @@
 [{
-    "name":"Torrentio-TV",
-    "url":"https://torrentio.strem.fun/sort=qualitysize|limit=5/stream/series/%imdbId.json",
+    "name":"T-TV",
+    "url":"https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/series/%imdbId.json",
     "type":"json_imdb",
     "imdbType":"tv",
     "infoHashTargetKey":"infoHash",
@@ -9,8 +9,8 @@
     "torrentNameTargetKey":"title"
   },
   {
-    "name":"Torrentio-Movie",
-    "url":"url":"https://torrentio.strem.fun/sort=qualitysize|limit=5/stream/movie/%imdbId.json",
+    "name":"T-Movie",
+    "url":"https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/movie/%imdbId.json",
     "type":"json_imdb",
     "imdbType":"movie",
     "infoHashTargetKey":"infoHash",
