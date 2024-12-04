@@ -1,6 +1,7 @@
 [{
     "name":"TV",
     "url":"https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/series/%imdbId.json",
+    "url":"https://torrentio.strem.fun/sort=qualitysize|limit=7/qualityfilter=hdrall,dolbyvision,dolbyvisionwithhdr,threed,scr,cam,unknown/stream/series/%imdbId.json,
     "type":"json_imdb",
     "imdbType":"tv",
     "infoHashTargetKey":"infoHash",
@@ -10,7 +11,7 @@
   },
   {
     "name":"Movie",
-    "url":"https://torrentio.strem.fun/sort=qualitysize|limit=7/stream/movie/%imdbId.json",
+    "url":"https://torrentio.strem.fun/sort=qualitysize|limit=7/qualityfilter=hdrall,dolbyvision,dolbyvisionwithhdr,threed,scr,cam,unknown/stream/series/%imdbId.json",
     "type":"json_imdb",
     "imdbType":"movie",
     "infoHashTargetKey":"infoHash",
