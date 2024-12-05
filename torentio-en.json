@@ -10,7 +10,7 @@
   },
   {
     "name":"Movie",
-    "url":"https://torrentio.strem.fun/sort=qualitysize|limit=7/qualityfilter=hdrall,dolbyvision,dolbyvisionwithhdr,threed,scr,cam,unknown/providers=yts,eztv,rarbg,1337x,thepiratebay,kickasstorrents,torrentgalaxy,magnetdl,horriblesubs,nyaasi,tokyotosho,anidex/debridoptions=nodownloadlinks/stream/movie/%imdbId.json",
+    "url":"https://torrentio.strem.fun/sort=qualitysize|limit=7/debridoptions=nodownloadlinks/stream/movie/%imdbId.json",
     "type":"json_imdb",
     "imdbType":"movie",
     "infoHashTargetKey":"infoHash",
