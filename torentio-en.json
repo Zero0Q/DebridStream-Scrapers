@@ -6,7 +6,9 @@
     "infoHashTargetKey":"infoHash",
     "itemType":"info_hash",
     "jsonResultsKey":"streams",
-    "torrentNameTargetKey":"title"
+    "torrentNameTargetKey":"title",
+    "is_torrent": false,
+    "is_direct": true
   },
   {
     "name":"Movie",
@@ -16,5 +18,7 @@
     "infoHashTargetKey":"infoHash",
     "itemType":"info_hash",
     "jsonResultsKey":"streams",
-    "torrentNameTargetKey":"title"
+    "torrentNameTargetKey":"title",
+    "is_torrent": false,
+    "is_direct": true
   }]
