@@ -1,0 +1,19 @@
+  [{
+    "name":"YTS",
+    "url":"https://yts.mx/api/v2/list_movies.json?query_term=%imdbId",
+    "type":"json_imdb",
+    "imdbType":"movie",
+    "infoHashTargetKey":"hash",
+    "itemType":"info_hash",
+    "jsonResultsKey":"data.movies[0].torrents",
+    "torrentNameTargetKey":"title"
+  },
+  {
+    "name": "Torrents-CSV",
+    "url": "https://torrents-csv.com/service/search?size=50&q=%s",
+    "type": "json",
+    "infoHashTargetKey": "infohash",
+    "itemType": "info_hash",
+    "jsonResultsKey": "torrents",
+    "torrentNameTargetKey": "name"
+  }]
